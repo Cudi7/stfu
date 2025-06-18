@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# STFU: The Audio-First Social Storytelling Platform
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🎙️ Unleash Your Voice. Listen to Others.
 
-## Get started
+Welcome to **STFU** (Short-form, Thoughtful, Fully Unfiltered – *yeah, we went there* 😉), an innovative, mobile-first social application built entirely around the power of the human voice.
 
-1. Install dependencies
+This project showcases a robust, modern mobile application development stack, designed for performance, scalability, and an intuitive user experience.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🛠️ Tech Stack & Architecture
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+* **Frontend:**
+    * **React Native:** For cross-platform mobile development.
+    * **Expo:** Streamlining the development workflow with a powerful SDK.
+    * **TailwindCSS:** For utility-first CSS styling, ensuring a consistent and maintainable UI.
+* **Backend (Chosen for Flexibility & Scalability):**
+    * **Supabase:** (Alternative/Hybrid) PostgreSQL Database, Authentication, Storage, Edge Functions.
+    * *The architecture is designed to be largely agnostic between these solutions where possible, demonstrating flexibility.*
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Getting Started (For Developers & Curious Minds)
 
-## Get a fresh project
+Want to peek under the hood or even get this bad boy running locally? Here's how to get started. Fair warning: setting up a full social app always has a few "fun" steps! 😉
 
-When you're ready, run:
+### Prerequisites
 
-```bash
-npm run reset-project
-```
+Before you begin, ensure you have the following installed:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+* Node.js (LTS recommended)
+* npm or Yarn
+* Expo CLI (`npm install -g expo-cli`)
 
-## Learn more
+### Installation Steps
 
-To learn more about developing your project with Expo, look at the following resources:
+1.  **Clone the repository:**
+2.  **Install dependencies:**
+3.  **Environment Variables:** Check them in the .env.local
+4.  **Database Schema & Functions:** For security and brevity in this public README, the full database schema (tables, RLS policies, functions, triggers) is not directly included here. However, I can provide it upon request or during a deeper discussion about the project architecture. It includes tables for users, posts, reactions, replies, categories, and more, along with necessary row-level security (RLS) and custom functions for optimized operations.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1.  **Run the application:**
+    ```bash
+    npx expo start
+    ```
+    This will open a new browser window with the Expo Dev Tools. You can then run the app on an iOS simulator, Android emulator, or on your physical device using the Expo Go app.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
